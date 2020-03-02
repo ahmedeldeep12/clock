@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'open sans' sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #060a1f;
+    color: #fff
+}
+
+#clock h2 {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    font-size: 30px;
+
+}
+
+
+#clock #war-clock {
+    display: flex
+}
+
+
+#clock #war-clock div {
+    position: relative;
+    margin: 0 20px;
+    -webkit-box-reflect: below 1px linear-gradient( transparent,rgba(49, 7, 7, 0.267));
+
+}
+
+#clock #war-clock div span {
+    position: relative;
+    width:110px;
+    height:125px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2196f3;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+    font-weight:300;
+    font-size:3em;
+
+}
+
+
+#clock #war-clock div span:nth-child(2) 
+{
+    height:30px;
+    font-size:0.8em;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    background: #127fd6;
+    text-transform: uppercase;
+}
+
+#clock #war-clock div:last-child span {
+    background: #ff006a
+}
+
+#clock #war-clock div:last-child span:nth-child(2) {
+    background: #ec0062
+}
